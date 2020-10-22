@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://basehold.it/24');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -8,6 +9,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+html{
+font-family: 'Quicksand', Arial, Georgia, Times New Roman, sans-serif;
+font-size: 16px;
+line-height: 24px;
+padding:12px;
+}
 
 img{
   display: block;
