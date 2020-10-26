@@ -29,7 +29,21 @@ h3{
   font-weight: 600;
   font-size: 18px;
 }
-
+@media screen and (min-width: 460px){
+  html{
+    padding: 15px 15% 15px 15%;
+  }
+}
+@media screen and (min-width: 700px){
+  html{
+    padding: 20px 20% 20px 20%;
+  }
+}
+@media screen and (min-width: 950px){
+  html{
+    padding: 25px 22% 25px 22%;
+  }
+}
 img{
   display: block;
   max-width: 100%;
