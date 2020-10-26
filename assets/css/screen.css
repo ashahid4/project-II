@@ -30,11 +30,11 @@ h3{
   font-size: 18px;
 }
 figure.photo{
-  padding-bottom:24px;
   padding-top:24px;
+  padding-bottom:24px;
 }
 figure{
-  padding-top:48px;
+  padding-top: 48px;
 }
 @media screen and (min-width: 460px){
   html{
