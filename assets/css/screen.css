@@ -44,6 +44,11 @@ h3{
     padding: 25px 22% 25px 22%;
   }
 }
+figcaption{
+  font-size: 13px;
+  line-height: 16px;
+  padding-top: 5px;
+}
 img{
   display: block;
   max-width: 100%;
