@@ -36,6 +36,12 @@ figure.photo{
 figure{
   padding-top: 48px;
 }
+@media screen and (min-width: 270px){
+   figure.oakton, figure.book{
+    padding-left: 25%;
+    width: 50%;
+  }
+}
 @media screen and (min-width: 460px){
   html{
     padding: 15px 15% 15px 15%;
@@ -45,10 +51,16 @@ figure{
   html{
     padding: 20px 20% 20px 20%;
   }
+  figure.oakton, figure.book{
+   padding-left: 25%;
+ }
 }
 @media screen and (min-width: 950px){
   html{
     padding: 25px 22% 25px 22%;
+  }
+  figure.oakton, figure.book {
+    padding-left: 0px;
   }
 }
 figcaption{
