@@ -26,8 +26,23 @@ h2{
 }
 h3{
   padding-top: 24px;
+  padding-bottom: 6px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
+}
+h4{
+  font-weight: 600;
+}
+ul.description, ul.skill, ol.language{
+  list-style-type:disc;
+  padding-left: 35px;
+  padding-bottom: 16px;
+}
+li.degree, li.year, li.location{
+  padding-bottom: 0px;
+}
+li{
+  padding-bottom: 2px;
 }
 figure.photo{
   padding-top:24px;
