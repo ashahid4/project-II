@@ -53,6 +53,17 @@ figure.photo{
 figure{
   padding-top: 48px;
 }
+.nav a{
+  display:block;
+  text-decoration:none;
+  background:#B6B2BE;
+  color: #000000;
+  padding: 10px;
+  font-size: 12px;
+}
+.nav a:hover{
+  background: grey;
+}
 @media screen and (min-width: 270px){
    figure.oakton, figure.book{
     padding-left:25%;
@@ -60,6 +71,19 @@ figure{
   }
   figure.photo{
     padding-left:15%;
+  }
+  .nav li{
+    float: left;
+    width: 33.3333333333%;
+    text-align: center;
+  }
+  .nav a{
+    font-size: 9px;
+  }
+}
+@media screen and (min-width: 340px){
+  .nav a{
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 460px){
@@ -88,7 +112,6 @@ figure{
   figure.oakton, figure.book {
     padding-left: 0px;
   }
-}
 figcaption{
   font-size: 13px;
   line-height: 16px;
@@ -98,14 +121,15 @@ img{
   display: block;
   max-width: 100%;
 }
-
-.nav a {
-    display: block;
-    text-decoration: none;
-    background: #B6B2BE;
-    color: #000000;
-    padding: 10px;
 }
-  .nav a:hover{
-    background: grey;
-  }
+/*.nav a{
+  display:block;
+  text-decoration:none;
+  background:#B6B2BE;
+  color: #000000;
+  padding: 10px;
+  font-size: 12px;
+}
+.nav a:hover{
+  background: grey;
+}*/
