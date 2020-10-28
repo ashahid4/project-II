@@ -14,13 +14,15 @@ font-family: 'Quicksand', Arial, Georgia, Times New Roman, sans-serif;
 font-size: 16px;
 line-height:24px;
 padding:12px;
+background-color:#DDD7E8;
 }
 h1{
   font-weight: 700;
   font-size: 24px;
+  padding-bottom: 24px;
 }
 h2{
-  padding-top: 48px;
+  padding-top: 24px;
   font-weight: 600;
   font-size: 22px;
 }
@@ -38,12 +40,12 @@ ul.description, ul.skill, ol.language{
   padding-left: 35px;
   padding-bottom: 16px;
 }
-li.degree, li.year, li.location{
+/*li.degree, li.year, li.location, li.gpa{
   padding-bottom: 0px;
 }
 li{
   padding-bottom: 2px;
-}
+}*/
 figure.photo{
   padding-top:24px;
   padding-bottom:24px;
@@ -53,13 +55,19 @@ figure{
 }
 @media screen and (min-width: 270px){
    figure.oakton, figure.book{
-    padding-left: 25%;
+    padding-left:25%;
     width: 50%;
+  }
+  figure.photo{
+    padding-left:15%;
   }
 }
 @media screen and (min-width: 460px){
   html{
     padding: 15px 15% 15px 15%;
+  }
+  figure.photo{
+    padding-left: 20%;
   }
 }
 @media screen and (min-width: 700px){
@@ -68,6 +76,9 @@ figure{
   }
   figure.oakton, figure.book{
    padding-left: 25%;
+ }
+ figure.photo{
+   padding-left: 30%;
  }
 }
 @media screen and (min-width: 950px){
@@ -87,3 +98,14 @@ img{
   display: block;
   max-width: 100%;
 }
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    background: #B6B2BE;
+    color: #000000;
+    padding: 10px;
+}
+  .nav a:hover{
+    background: grey;
+  }
