@@ -14,23 +14,24 @@ font-family: 'Quicksand', Arial, Georgia, Times New Roman, sans-serif;
 font-size: 16px;
 line-height:24px;
 padding:12px;
-background-color:#DDD7E8;
+background-color: #DDD7E8;
 }
 h1{
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   padding-bottom: 24px;
 }
 h2{
   padding-top: 24px;
+  padding-bottom: 6px;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
 }
 h3{
   padding-top: 24px;
   padding-bottom: 6px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
 }
 h4{
   font-weight: 600;
@@ -40,12 +41,6 @@ ul.description, ul.skill, ol.language{
   padding-left: 35px;
   padding-bottom: 16px;
 }
-/*li.degree, li.year, li.location, li.gpa{
-  padding-bottom: 0px;
-}
-li{
-  padding-bottom: 2px;
-}*/
 figure.photo{
   padding-top:24px;
   padding-bottom:24px;
@@ -56,13 +51,13 @@ figure{
 .nav a{
   display:block;
   text-decoration:none;
-  background:#B6B2BE;
+  background: #B6B2BE;
   color: #000000;
   padding: 10px;
   font-size: 12px;
 }
 .nav a:hover{
-  background: grey;
+  background:#ABA2B9;
 }
 @media screen and (min-width: 270px){
    figure.oakton, figure.book{
@@ -79,6 +74,9 @@ figure{
   }
   .nav a{
     font-size: 9px;
+  }
+  h2{
+    padding-top: 72px;
   }
 }
 @media screen and (min-width: 340px){
@@ -112,6 +110,7 @@ figure{
   figure.oakton, figure.book {
     padding-left: 0px;
   }
+}
 figcaption{
   font-size: 13px;
   line-height: 16px;
@@ -121,15 +120,7 @@ img{
   display: block;
   max-width: 100%;
 }
-}
-/*.nav a{
-  display:block;
-  text-decoration:none;
-  background:#B6B2BE;
-  color: #000000;
-  padding: 10px;
+footer {
+  padding-top: 24px;
   font-size: 12px;
 }
-.nav a:hover{
-  background: grey;
-}*/
