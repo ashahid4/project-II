@@ -1,122 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
-@import url('https://basehold.it/24');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap");
+@import url("https://basehold.it/24");
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 /* stylelint-disable*/
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
 /* Begin site styles below */
-html{
-font-family: 'Quicksand', Arial, Georgia, Times New Roman, sans-serif;
-font-size: 1em; /* orig: 16px, 16/16 = 1 em */
-line-height: 1.5em; /* orig: 24px, 24/16 = 1.5 */
-padding: 0.75em; /* orig 12px, 12/16 = 0.75 */
-background-color: #FFFFFF;
+html {
+  font-family: Quicksand, Arial, Georgia, "Times New Roman", sans-serif;
+  font-size: 1em; /* orig: 16px, 16/16 = 1 em */
+  line-height: 1.5em; /* orig: 24px, 24/16 = 1.5 */
+  padding: 0.75em; /* orig 12px, 12/16 = 0.75 */
+  background-color: #FFFFFF;
 }
-h1{
+h1 {
   font-weight: 600;
   font-size: 1.5em; /* orig: 24px, 24/16 = 1.5em */
   padding-bottom: 1em;/* orig: 24px, 24/24 = 1em */
 }
-h2{
+h2 {
   font-weight: 600;
   font-size: 1.25em; /* orig: 20px, 20/16 = 1.25em*/
-  padding-top: 1.20em; /* orig: 24px, 24/20 = 1.2em */
+  padding-top: 1.2em; /* orig: 24px, 24/20 = 1.2em */
   padding-bottom: 0.3em; /* orig: 6px, 6/20 = 0.3em */
 }
-h3{
+h3 {
   font-weight: 600;
   font-size: 1.125em; /* 18/16 = 1.125em */
   padding-top: 1.333333333333333em; /* orig: 24px, 24/18 =1.333333333333333*/
   padding-bottom: 0.333333333333333em; /* orig: 6px, 6/18 = 0.333333333333333*/
 }
-h4{
+h4 {
   font-weight: 600;
 }
-ul.description, ul.skill, ol.language{
-  list-style-type:disc;
+ul.description, ul.skill, ol.language {
+  list-style-type: disc;
   padding-left: 2.1875em; /* orig: 35px, 35/16 = 2.1875 */
-  padding-bottom:1em; /* orig: 16px, 16/16 = 1 */
+  padding-bottom: 1em; /* orig: 16px, 16/16 = 1 */
 }
-figure.photo{
-  padding-top:1.5em; /* orig: 24px, 24/16 = 1.5 */
-  padding-bottom:1.5em; /* orig: 24px, 24/16 = 1.5*/
+figure.photo {
+  padding-top: 1.5em; /* orig: 24px, 24/16 = 1.5 */
+  padding-bottom: 1.5em; /* orig: 24px, 24/16 = 1.5*/
 }
-figure{
+figure {
   padding-top: 3em; /* orig: 48px, 48/16 = 3 */
 }
-.nav a{
+.nav a {
   font-size: 0.75em; /*orig: 12 px, 12/16 = 0.75 */
   padding: 0.833333333333333em;/*10px; /* orig: 10 px, 10/12 = 0.833333333333333 */
-  display:block;
-  text-decoration:none;
-  background:#B6B2BE;
+  display: block;
+  text-decoration: none;
+  background: #B6B2BE;
   color: #000000;
 }
-.nav a:hover{
-  background:#83788B;
+.nav a:hover {
+  background: #83788B;
 }
-@media screen and (min-width: 16.875em){ /* orig: 270, 270/16 = 16.875 */
-   figure.oakton, figure.book{
-    padding-left:25%;
+@media screen and (min-width: 16.875em) { /* orig: 270, 270/16 = 16.875 */
+  figure.oakton, figure.book {
+    padding-left: 25%;
     width: 50%;
   }
-  figure.photo{
-    padding-left:15%;
+  figure.photo {
+    padding-left: 15%;
   }
-  .nav li{
+  .nav li {
     float: left;
     width: 33.3333333333%;
     text-align: center;
   }
-  .nav a{
+  .nav a {
     font-size: 0.5625em; /* orig: 9px, 9/16 = 0.75*/
   }
-  h2{
+  h2 {
     padding-top: 3.6em; /* orig: 72px, 72/20 = 3.6 */
   }
 }
-@media screen and (min-width: 21.25em){ /* orig: 340px, 340/16 = 21.25 */
-  .nav a{
+@media screen and (min-width: 21.25em) { /* orig: 340px, 340/16 = 21.25 */
+  .nav a {
     font-size: 0.75em; /* orig: 12px, 12/16 = 0.75 */
   }
 }
-@media screen and (min-width: 28.75em){ /* orig: 460px, 460/16= 28.75 */
-  html{
+@media screen and (min-width: 28.75em) { /* orig: 460px, 460/16= 28.75 */
+  html {
     padding: 0.9375em 15% 0.9375em 15%; /* orig: 15px, 15/16 = 0.9375*/
   }
-  figure.photo{
+  figure.photo {
     padding-left: 20%;
   }
 }
-@media screen and (min-width: 43.75em){ /*orig: 700px, 700/16 = 43.75*/
-  html{
+@media screen and (min-width: 43.75em) { /*orig: 700px, 700/16 = 43.75*/
+  html {
     padding: 1.25em 20% 1.25em 20%; /* orig: 20px, 20/16 = 1.25 */
   }
-  figure.oakton, figure.book{
-   padding-left: 25%;
- }
- figure.photo{
-   padding-left: 30%;
- }
+  figure.oakton, figure.book {
+    padding-left: 25%;
+  }
+  figure.photo {
+    padding-left: 30%;
+  }
 }
-@media screen and (min-width: 59.375em){ /* orig: 950px, 950/16 = 59.375*/
-  html{
+@media screen and (min-width: 59.375em) { /* orig: 950px, 950/16 = 59.375*/
+  html {
     padding: 1.5625em 22% 1.5625em 22%; /* orig: 25px, 25/16 = 1.5625 */
   }
   figure.oakton, figure.book {
-    padding-left: 0em;
+    padding-left: 0%;
   }
 }
-figcaption{
+figcaption {
   font-size: 0.8125em; /* orig: 13px, 13/16 = 0.8125em */
   line-height: 1.230769230769231em; /* orig: 16px, 16/13 = 1.230769230769231 */
   padding-top: 0.384615384615385em; /* orig: 5px, 5/13 = 0.384615384615385; */
 }
-img{
+img {
   display: block;
   max-width: 100%;
 }
