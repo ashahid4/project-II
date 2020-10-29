@@ -14,7 +14,7 @@ font-family: 'Quicksand', Arial, Georgia, Times New Roman, sans-serif;
 font-size: 1em; /* orig: 16px, 16/16 = 1 em */
 line-height: 1.5em; /* orig: 24px, 24/16 = 1.5 */
 padding: 0.75em; /* orig 12px, 12/16 = 0.75 */
-background-color: white; /*#DDD7E8;*/
+background-color: #FFFFFF;
 }
 h1{
   font-weight: 600;
@@ -53,11 +53,11 @@ figure{
   padding: 0.833333333333333em;/*10px; /* orig: 10 px, 10/12 = 0.833333333333333 */
   display:block;
   text-decoration:none;
-  background: #B6B2BE;
+  background:#B6B2BE;
   color: #000000;
 }
 .nav a:hover{
-  background:#ABA2B9;
+  background:#83788B;
 }
 @media screen and (min-width: 16.875em){ /* orig: 270, 270/16 = 16.875 */
    figure.oakton, figure.book{
