@@ -49,8 +49,8 @@ figure {
   padding-top: 3em; /* orig: 48px, 48/16 = 3 */
 }
 .nav a {
-  font-size: 0.75em; /*orig: 12 px, 12/16 = 0.75 */
-  padding: 0.833333333333333em;/*10px; /* orig: 10 px, 10/12 = 0.833333333333333 */
+  font-size: 1em; /*orig: 16 px, 16/16 = 1 */
+  padding: 0.833333333333333em;/*10px; /* orig: 10 px, 10/12 = 0.833333333333333*/
   display: block;
   text-decoration: none;
   background: #B6B2BE;
@@ -67,24 +67,22 @@ figure {
   figure.photo {
     padding-left: 15%;
   }
-  .nav li {
-    float: left;
-    width: 33.3333333333%;
-    text-align: center;
-  }
-  .nav a {
-    font-size: 0.5625em; /* orig: 9px, 9/16 = 0.75*/
-  }
   h2 {
     padding-top: 3.6em; /* orig: 72px, 72/20 = 3.6 */
   }
 }
-@media screen and (min-width: 21.25em) { /* orig: 340px, 340/16 = 21.25 */
-  .nav a {
-    font-size: 0.75em; /* orig: 12px, 12/16 = 0.75 */
-  }
+@media screen and (min-width: 25em) { /* orig: 400px, 400/16 = 21.25 */
+    .nav li {
+      float: left;
+      width: 33.3333333333%;
+      text-align: center;
+    }
+    .nav a{
+      padding-left: 0.055555555555556em; /*orig: 1px, 1/10 = 0.1em*/
+    }
+
 }
-@media screen and (min-width: 28.75em) { /* orig: 460px, 460/16= 28.75 */
+@media screen and (min-width: 33.75em) { /* orig: 540px, 540/16= 28.75 */
   html {
     padding: 0.9375em 15% 0.9375em 15%; /* orig: 15px, 15/16 = 0.9375*/
   }
