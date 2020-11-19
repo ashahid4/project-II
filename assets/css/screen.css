@@ -48,6 +48,14 @@ figure.photo {
 figure {
   padding-top: 3em; /* orig: 48px, 48/16 = 3 */
 }
+img {
+  display: block;
+  max-width: 100%;
+}
+footer {
+  font-size: 0.75em; /* orig: 12px, 12/16 = 0.75 */
+  padding-top: 2em; /* orig: 24px, 24/12 = 2 */
+}
 .nav a {
   font-size:0.888888888888889em; /*orig: 16 px, 16/18 = 1 */
   padding: 0.833333333333333em;/*10px; /* orig: 10 px, 10/12 = 0.833333333333333*/
@@ -91,6 +99,7 @@ figure {
   html {
     padding: 0.9375em 15% 0.9375em 15%; /* orig: 15px, 15/16 = 0.9375*/
   }
+}
 
 @media screen and (min-width: 43.75em) { /*orig: 700px, 700/16 = 43.75*/
   html {
@@ -115,12 +124,4 @@ figcaption {
   font-size: 0.8125em; /* orig: 13px, 13/16 = 0.8125em */
   line-height: 1.230769230769231em; /* orig: 16px, 16/13 = 1.230769230769231 */
   padding-top: 0.384615384615385em; /* orig: 5px, 5/13 = 0.384615384615385; */
-}
-img {
-  display: block;
-  max-width: 100%;
-}
-footer {
-  font-size: 0.75em; /* orig: 12px, 12/16 = 0.75 */
-  padding-top: 2em; /* orig: 24px, 24/12 = 2 */
 }
