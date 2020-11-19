@@ -41,6 +41,11 @@ ul.description, ul.skill, ol.language {
   padding-left: 2.1875em; /* orig: 35px, 35/16 = 2.1875 */
   padding-bottom: 1em; /* orig: 16px, 16/16 = 1 */
 }
+figcaption {
+  font-size: 0.8125em; /* orig: 13px, 13/16 = 0.8125em */
+  line-height: 1.230769230769231em; /* orig: 16px, 16/13 = 1.230769230769231 */
+  padding-top: 0.384615384615385em; /* orig: 5px, 5/13 = 0.384615384615385; */
+}
 figure.photo {
   padding-top: 1.5em; /* orig: 24px, 24/16 = 1.5 */
   padding-bottom: 1.5em; /* orig: 24px, 24/16 = 1.5*/
@@ -75,9 +80,6 @@ footer {
   figure.photo {
     padding-left: 10%;
   }
-  /*h2 {
-    padding-top: 3.6em; /* orig: 72px, 72/20 = 3.6
-  } */
 }
 @media screen and (min-width: 25em) { /* orig: 400px, 400/16 = 25 */
     .nav li {
@@ -119,9 +121,4 @@ footer {
   figure.oakton, figure.book {
     padding-left: 0%;
   }
-}
-figcaption {
-  font-size: 0.8125em; /* orig: 13px, 13/16 = 0.8125em */
-  line-height: 1.230769230769231em; /* orig: 16px, 16/13 = 1.230769230769231 */
-  padding-top: 0.384615384615385em; /* orig: 5px, 5/13 = 0.384615384615385; */
 }
