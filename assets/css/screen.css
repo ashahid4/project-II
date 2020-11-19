@@ -62,7 +62,7 @@ footer {
   padding-top: 2em; /* orig: 24px, 24/12 = 2 */
 }
 .nav a {
-  font-size:0.888888888888889em; /*orig: 16 px, 16/18 = 1 */
+  font-size: 0.888888888888889em; /*orig: 16 px, 16/18 = 1 */
   padding: 0.833333333333333em;/*10px; /* orig: 10 px, 10/12 = 0.833333333333333*/
   display: block;
   text-decoration: none;
@@ -82,20 +82,20 @@ footer {
   }
 }
 @media screen and (min-width: 25em) { /* orig: 400px, 400/16 = 25 */
-    .nav li {
-      float: left;
-      width: 33.3333333333%;
-      text-align: center;
-    }
-    .nav a{
-      padding-left: 0.055555555555556em; /*orig: 1px, 1/10 = 0.1em*/
-    }
-    h2 {
-      padding-top: 3.6em; /* orig: 72px, 72/20 = 3.6 */
-    }
-    figure.photo{
-      padding-left: 20%;
-    }
+  .nav li {
+    float: left;
+    width: 33.3333333333%;
+    text-align: center;
+  }
+  .nav a {
+    padding-left: 0.055555555555556em; /*orig: 1px, 1/10 = 0.1em*/
+  }
+  h2 {
+    padding-top: 3.6em; /* orig: 72px, 72/20 = 3.6 */
+  }
+  figure.photo {
+    padding-left: 20%;
+  }
 }
 @media screen and (min-width: 33.75em) { /* orig: 540px, 540/16= 28.75 */
   html {
