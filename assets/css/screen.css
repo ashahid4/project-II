@@ -70,7 +70,7 @@ footer {
   color: #000000;
 }
 .nav a:hover {
-  background: #666666; /* #7D7373; /*#D7D7E0;*/
+  background: #666666;
 }
 @media screen and (min-width: 16.875em) { /* orig: 270, 270/16 = 16.875 */
   figure.oakton, figure.book {
